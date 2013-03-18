@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    celluloid (0.12.4)
+      facter (>= 1.6.12)
+      timers (>= 1.0.0)
+    facter (1.6.18)
+    ffi (1.4.0-java)
+    ffi-rzmq (1.0.0)
+      ffi
+    json (1.7.7-java)
+    timers (1.1.0)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  celluloid
+  ffi-rzmq
+  json
